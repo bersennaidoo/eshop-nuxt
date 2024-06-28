@@ -12,8 +12,12 @@
                 <a href="/about" class="nav-link">About</a>
               </li>
               <li class="nav-item">
-                <a href="/contact" class="nav-link">Contact</a>
+                <a href="/shop" class="nav-link">Shop</a>
               </li>
+              <li class="nav-item">
+                <a href="/blog" class="nav-link">Blog</a>
+              </li>
+
               <li class="nav-item">
                 <a href="contact.html" class="nav-link">Contact</a>
               </li>
