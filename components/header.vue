@@ -2,7 +2,7 @@
     <header>
   <!-- Navigation bar -->
   <nav
-    class="relative flex w-full items-center justify-between bg-white py-2 shadow-dark-mild dark:bg-body-dark lg:flex-wrap lg:justify-start lg:py-4"
+    class="relative flex w-full items-center justify-between bg-emerald-300 py-2 shadow-dark-mild dark:bg-body-dark lg:flex-wrap lg:justify-start lg:py-4"
     data-twe-navbar-ref>
     <div class="flex w-full flex-wrap items-center justify-between px-3">
       <div class="flex items-center">
@@ -43,8 +43,8 @@
           data-twe-navbar-nav-ref>
           <li class="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
             <a
-              class="block text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-              href="#!"
+              class="block text-rose-400 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
+              href="/"
               data-twe-nav-link-ref
               data-twe-ripple-init
               data-twe-ripple-color="light"
@@ -53,28 +53,28 @@
           </li>
           <li class="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
             <a
-              class="block text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-              href="#!"
+              class="block text-rose-400 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
+              href="/shop"
               data-twe-nav-link-ref
               data-twe-ripple-init
               data-twe-ripple-color="light"
-              >Features</a
+              >Shop</a
             >
           </li>
           <li class="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
             <a
-              class="block text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-              href="#!"
+              class="block text-rose-400 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
+              href="/blog"
               data-twe-nav-link-ref
               data-twe-ripple-init
               data-twe-ripple-color="light"
-              >Pricing</a
+              >Blog</a
             >
           </li>
           <li class="mb-2 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
             <a
-              class="block text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
-              href="#!"
+              class="block text-rose-400 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
+              href="/about"
               data-twe-nav-link-ref
               data-twe-ripple-init
               data-twe-ripple-color="light"
@@ -95,13 +95,15 @@
         <div class="px-6 text-center text-white md:px-12">
           <h1 class="mb-6 text-5xl font-bold">Heading</h1>
           <h3 class="mb-8 text-3xl font-bold">Subeading</h3>
-          <button
+          <a
+            href="/shop"
             type="button"
+            role="button"
             class="inline-block rounded border-2 border-neutral-50 px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-300 hover:text-neutral-200 focus:border-neutral-300 focus:text-neutral-200 focus:outline-none focus:ring-0 active:border-neutral-300 active:text-neutral-200 dark:hover:bg-neutral-600 dark:focus:bg-neutral-600"
             data-twe-ripple-init
             data-twe-ripple-color="light">
-            Call to action
-          </button>
+            Shop Now
+        </a>
         </div>
       </div>
     </div>
