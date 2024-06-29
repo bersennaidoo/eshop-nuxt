@@ -13,9 +13,11 @@ module.exports = {
     `./error.{js,ts,vue}`,
     `./app.config.{js,ts}`,
     `./nuxt.config.{js,ts}`,
+    "./node_modules/tw-elements/js/**/*.js",
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  darkMode: "class",
+  plugins: [require("tw-elements/plugin.cjs")],
 };
