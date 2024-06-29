@@ -1,3 +1,6 @@
+<template>
+
+</template>
 <script setup>
 showError({
     statusCode: 404,

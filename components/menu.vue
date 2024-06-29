@@ -1,49 +1,41 @@
 <template>
-    <header>
-      <nav class="navbar navbar-light bg-light navbar-expand-lg">
-        <div class="container">
-          <a href="/" class="navbar-brand">Brand Name</a>
-          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse mb-2 mb-lg-0" id="navbar">
-            <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
-              <li class="nav-item">
-                <a href="/about" class="nav-link">About</a>
-              </li>
-              <li class="nav-item">
-                <a href="/shop" class="nav-link">Shop</a>
-              </li>
-              <li class="nav-item">
-                <a href="/blog" class="nav-link">Blog</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
-              </li>
-            </ul>
-            <form class="mb-3 mb-lg-0 me-lg-2">
-              <div class="input-group">
-                <input type="search" class="form-control" placeholder="Search text here" aria-label="Search products here">
-                <button type="submit" class="btn btn-secondary"><i class="bi-search"></i></button>
-              </div>
-            </form>
-            <div class="dropdown d-inline-block me-2">
-              <button type="button" class="btn btn-secondary dropdown-toggle" id="currencyDropdown" data-bs-toggle="dropdown" aria-expanded="false">USD $</button>
-              <div class="dropdown-menu" aria-labelledby="currencyDropdown">
-                <button type="button" class="dropdown-item">EUR €</button>
-                <button type="button" class="dropdown-item">GBP £</button>
-              </div>
-            </div>
-            <a href="wishlist.html" class="btn btn-secondary me-2">
-              <i class="bi-heart"></i>
-            </a>
-            <a href="cart.html" class="btn btn-primary">
-              <i class="bi-cart"></i>
-              (0)
-            </a>
-          </div>
-        </div>
-      </nav>
+   <header class="text-gray-400 bg-gray-900 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a href="/" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+            viewBox="0 0 24 24"
+          >
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+          </svg>
+          <span class="ml-3 text-xl">Tailblocks</span>
+        </a>
+        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+          <a href="/" class="mr-5 hover:text-white">Home</a>
+          <a href="/shop" class="mr-5 hover:text-white">Shop</a>
+          <a href="/blog" class="mr-5 hover:text-white">Blog</a>
+          <a href="/about" class="mr-5 hover:text-white">About</a>
+        </nav>
+        <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          Button
+          <svg
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
     </header>
 </template>
